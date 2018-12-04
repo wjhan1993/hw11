@@ -177,6 +177,6 @@ ostream& operator<<(ostream& os, Array& y)
   for (i = 0;i < y.getCapacity() - 1;i++){
     os << y[i] << ", "; 
   }
-  os << y[i] << "]" << endl;
+  os << y[i] << "]";
   return os;
 }
